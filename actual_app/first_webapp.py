@@ -17,4 +17,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hello this is the new version!"
+    return "<h1>Welcome to Geeks for Geeks</h1>"
